@@ -8,14 +8,12 @@ dotenv.config();
 const port = process.env.PORT || 3000;
 
 
-const exampleController = require('./src/subject-alert/controller');
+const exampleController = require('./engine/subject-alert/controller');
 
 app.use(express.json());
 
-// API prefix
 app.use('/api/subject-alert', exampleController);
 
-// Start the server
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
