@@ -1,0 +1,45 @@
+[
+  {
+    "id": "1",
+    "name": "רישיון א",
+    "subSubjects": [
+      {
+        "id": "11",
+        "name": "תת-רישיון א1",
+        "subSubjects": [
+          {
+            "id": "111",
+            "name": "תת-רישיון א1א",
+            "subSubjects": []
+          },
+          {
+            "id": "112",
+            "name": "תת-רישיון א1ב",
+            "subSubjects": []
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "name": "תת-רישיון א2",
+        "subSubjects": []
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "רישיון ב",
+    "subSubjects": [
+      {
+        "id": "22",
+        "name": "תת-רישיון ב1",
+        "subSubjects": []
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "רישיון ג",
+    "subSubjects": []
+  }
+]
